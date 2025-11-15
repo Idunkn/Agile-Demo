@@ -14,7 +14,7 @@ class Item(BaseModel):
 _db: Dict[int, Item] = {}
 
 @app.get("/")
-def health():
+def get():
     return {"mesage": "Welcome"}
 
 @app.get("/health")
