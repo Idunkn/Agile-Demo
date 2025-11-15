@@ -1,8 +1,6 @@
 from fastapi.testclient import TestClient
 from agile_ci_demo.app import app
 
-sdasd
-
 client = TestClient(app)
 
 def test_health():
